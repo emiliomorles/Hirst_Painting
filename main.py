@@ -14,17 +14,15 @@ color_list = [(245, 243, 238), (246, 242, 244), (202, 164, 110), (240, 245, 241)
               (147, 17, 19), (27, 68, 102), (12, 70, 64), (107, 127, 153), (176, 192, 208), (168, 99, 102)]
 
 
-def dashed_line():
+def dashed_spot():
     """It creates a dashed line"""
     spot.setx(-200)
     spot.sety(-200)
     line_length = 10  # Total length of the dashed line
-    dash_length = 0  # Length of each dash
     gap_length = 50  # Length of each gap
     for _ in range(5):
         for _ in range(line_length):
             spot.dot(20, random.choice(color_list))
-            spot.forward(dash_length)
             spot.penup()
             spot.forward(gap_length)
             spot.pendown()
@@ -35,7 +33,6 @@ def dashed_line():
         spot.forward(50)
         for _ in range(line_length):
             spot.dot(20, random.choice(color_list))
-            spot.forward(dash_length)
             spot.penup()
             spot.forward(gap_length)
             spot.pendown()
@@ -46,7 +43,7 @@ def dashed_line():
         spot.forward(50)
 
 
-dashed_line()
+dashed_spot()
 
 screen = t.Screen()
 screen.exitonclick()
