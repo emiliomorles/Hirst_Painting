@@ -30,6 +30,9 @@ The "Hirst Painting" app brings a refreshing twist to digital artistry. With its
 
 Experience the magic of "Hirst Painting" for yourself. You'll be amazed at the incredible art you can produce with just a few strokes. Unleash your inner artist and dive into a world of color and creativity like no other. Download the app now and start painting the unexpected.
 
+## ![Sample Image](https://github.com/emiliomorles/Hirst_Painting/blob/master/extra/Art005.JPG)
+
+
 ## Developer: https://github.com/emiliomorles
 
 ## Year: 2023
